@@ -14,6 +14,21 @@
 		.inner-shadow {
 			filter: brightness(85%);
 		}
+
+		.imtext {
+			position: absolute;
+			top: 90px;
+			left: 20px;
+			z-index: 1;
+			color: white;
+			font-size: 80px;
+			width: 800px;
+			font-weight: bold;
+		}
+
+		ul{
+   			list-style:none;
+		}
 	</style>
 </head>
 <body>
@@ -39,7 +54,7 @@
 							  <i class="fa-solid fa-user fa-lg"></i>
 						  </a>
 					  </li>
-					  <li class="nav-item col-4 me-2">
+					  <li class="">
 						  <a class="nav-link py-2 px-0 px-lg-2" href="#" style="color: rgb(193, 232, 100);">
 							  <i class="fa-solid fa-comments fa-lg m"></i>
 						  </a>
@@ -53,18 +68,44 @@
 			  </div>	
 			</div>
 	  </nav>
-	  <div id="bg-img" class="carousel slide " data-bs-ride="carousel">
-		  <div class="carousel-inner img-fluid;">
+		<div class="container-fluid">
+			<ul class="imtext">
+				<li>
+					<input class="form-control me-2" type="search" style= "width: 200px; height: 70px;" aria-label="Search">
+				</li>
+				<li>
+					<button class="btn btn-outline-success" type="submit" style= "width: 70px; height: 70px;">Search</button>
+				</li> 
+			</ul>
+		</div>
+		<div id="bg-img" class="carousel slide " data-bs-ride="carousel">
+			<div class="carousel-inner img-fluid">
 				<div class="carousel-item active">
-					<div class="d-flex offset-5"  role="search">
-						<input class="form-control me-2 w-25" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success" style="width: 80px;" type="submit">검색</button>
-					</div>
+					<ul class="imtext">
+						<li>
+							<a style="font-size: 80px">1인배달,</a>
+						</li>
+						<li>
+							<a style="font-size: 80px">이젠 망설이지 말고</a>
+						</li>
+						<li>
+							<a style="color: rgb(142, 68, 173); text-shadow: 6px 2px 2px white; font-size: 80px;">SHARE</a>하자!
+						</li>
+					</ul>
 					<img src="1g.jpg" class="d-block w-100 inner-shadow" alt="..." style="height: 850px;">
 				</div>
 				<div class="carousel-item">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success" style="width: 80px;" type="submit">검색</button>
+					<ul class="imtext" style="color: white; text-shadow: 6px 2px 2px rgba(241, 196, 15);">
+						<li class="ps-5">
+							<a style="font-size: 100px">Share</a>
+						</li>
+						<li>
+							<a style="font-size: 130px">Together</a>
+						</li>
+						<li>
+							<a style="font-size: 150px">Now</a>
+						</li>
+					</ul>
 					<img src="2g.jpg" class="d-block w-100 inner-shadow" alt="..." style="height: 850px;">
 				</div>
 		  </div>
