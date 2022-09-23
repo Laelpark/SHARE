@@ -1,5 +1,5 @@
 .cd2 {
-  padding: 0px;
+  padding: px;
   width: 950px;
   height: 100%;
   background: white;
@@ -185,6 +185,7 @@ main h4 {
 #sidebar {
   background: rgba(158, 82, 190);
   grid-area: sidebar;
+  width: 200px;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }

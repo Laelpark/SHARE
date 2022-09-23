@@ -119,20 +119,13 @@ li i {
 }
 
 #menu1 {
-  width: 700px;
+  width: 1000px;
   height: 100%;
 }
 
 #menu1 ul li{
   display: block;
   text-decoration: none;
-  float: left;
-  text-align: center;
-  width: 20%;
-  height: 100%;
-}
-
-#menu1 ul li {
   float: left;
   text-align: center;
   width: 20%;
