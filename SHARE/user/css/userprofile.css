@@ -11,7 +11,7 @@
 }
 
 #content2 {
-    height: 130px;
+    height: 150px;
     margin-top: 10px;
     margin-left: 150px;
 }
@@ -65,5 +65,10 @@ ol, ul {
 #preview {
     width: 100px;
     height: 100px;
+}
 
+#btnPw {
+    width: 70px;
+    height: 50px;
+    border-style: none;
 }
